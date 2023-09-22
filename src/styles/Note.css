@@ -1,0 +1,73 @@
+
+
+.note{
+    background-color: #fef68a;
+    padding: 1rem;
+    border-radius: 10px;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;  /* if there are any space in texts then remain it as it is*/
+}
+.note-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.delete-icon:hover{
+   cursor: pointer;
+}
+/* .new{
+    background-color: #67d7cc;
+} */
+textarea{
+    border: none;
+    resize: none;   /*bcox text area can be dragged*/
+    /* background-color: #67d7cc; */
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.87;
+}
+textarea:focus{
+    outline: none;
+}
+
+/*
+.save{
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.save:hover{
+    background-color: #ededed;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(233,233,233);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 1.5rem;
+}
+.search input{
+    border: none;
+    background-color: rgb(233,233,233);
+
+}
+.search input:focus{
+   outline: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dark-mode{
+    background-color: black;
+}
+.dark-mode h1{
+    color: white;
+} */ 
